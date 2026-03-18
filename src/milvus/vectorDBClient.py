@@ -168,9 +168,9 @@ class VectorDBClient:
             description="Как часто встречается значение (только для entity_type='value')"
         )
 
-        self.client.drop_collection(
-            collection_name= self.collection_name
-        )
+        #self.client.drop_collection(
+        #    collection_name= self.collection_name
+        #)
         # Создаем коллекцию
         self.client.create_collection(
             collection_name=self.collection_name,
