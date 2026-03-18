@@ -1,0 +1,99 @@
+2026-03-17 20:15:49,606 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/GPTCache/paraphrase-albert-small-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-17 20:15:49,722 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/GPTCache/paraphrase-albert-small-v2/5fb246187b5489d59ce0db167e739192759defab/config.json "HTTP/1.1 200 OK"
+2026-03-17 20:15:50,236 - INFO - httpx - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/GPTCache/paraphrase-albert-small-v2/5fb246187b5489d59ce0db167e739192759defab/config.json "HTTP/1.1 200 OK"
+2026-03-17 20:15:50,490 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/GPTCache/paraphrase-albert-small-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-17 20:15:50,612 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/GPTCache/paraphrase-albert-small-v2/5fb246187b5489d59ce0db167e739192759defab/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-17 20:15:50,756 - INFO - httpx - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/GPTCache/paraphrase-albert-small-v2/5fb246187b5489d59ce0db167e739192759defab/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-17 20:15:51,002 - INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/GPTCache/paraphrase-albert-small-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-17 20:15:51,376 - INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/GPTCache/paraphrase-albert-small-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-17 20:15:51,620 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/GPTCache/paraphrase-albert-small-v2/resolve/main/spiece.model "HTTP/1.1 302 Found"
+2026-03-17 20:15:51,873 - INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/GPTCache/paraphrase-albert-small-v2/xet-read-token/5fb246187b5489d59ce0db167e739192759defab "HTTP/1.1 200 OK"
+2026-03-17 20:15:54,749 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/GPTCache/paraphrase-albert-small-v2/resolve/main/tokenizer.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-17 20:15:54,938 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/GPTCache/paraphrase-albert-small-v2/5fb246187b5489d59ce0db167e739192759defab/tokenizer.json "HTTP/1.1 200 OK"
+2026-03-17 20:15:55,082 - INFO - httpx - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/GPTCache/paraphrase-albert-small-v2/5fb246187b5489d59ce0db167e739192759defab/tokenizer.json "HTTP/1.1 200 OK"
+2026-03-17 20:15:56,050 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/GPTCache/paraphrase-albert-small-v2/resolve/main/added_tokens.json "HTTP/1.1 404 Not Found"
+2026-03-17 20:15:56,292 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/GPTCache/paraphrase-albert-small-v2/resolve/main/special_tokens_map.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-17 20:15:56,432 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/GPTCache/paraphrase-albert-small-v2/5fb246187b5489d59ce0db167e739192759defab/special_tokens_map.json "HTTP/1.1 200 OK"
+2026-03-17 20:15:56,573 - INFO - httpx - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/GPTCache/paraphrase-albert-small-v2/5fb246187b5489d59ce0db167e739192759defab/special_tokens_map.json "HTTP/1.1 200 OK"
+2026-03-17 20:15:56,814 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/GPTCache/paraphrase-albert-small-v2/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+2026-03-17 20:15:57,351 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/GPTCache/paraphrase-albert-onnx/resolve/main/model.onnx "HTTP/1.1 302 Found"
+2026-03-17 20:15:57,595 - INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/GPTCache/paraphrase-albert-onnx/xet-read-token/5b562a100bc67e898ac89814e7a4668a18d65756 "HTTP/1.1 200 OK"
+2026-03-17 20:16:04,055 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/GPTCache/paraphrase-albert-small-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-17 20:16:04,056 - WARNING - huggingface_hub.utils._http - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-03-17 20:16:04,168 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/GPTCache/paraphrase-albert-small-v2/5fb246187b5489d59ce0db167e739192759defab/config.json "HTTP/1.1 200 OK"
+2026-03-17 20:16:29,093 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/GPTCache/paraphrase-albert-small-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-17 20:16:29,210 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/GPTCache/paraphrase-albert-small-v2/5fb246187b5489d59ce0db167e739192759defab/config.json "HTTP/1.1 200 OK"
+2026-03-17 20:16:29,451 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/GPTCache/paraphrase-albert-small-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-17 20:16:29,452 - WARNING - huggingface_hub.utils._http - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-03-17 20:16:29,569 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/GPTCache/paraphrase-albert-small-v2/5fb246187b5489d59ce0db167e739192759defab/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-17 20:16:29,810 - INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/GPTCache/paraphrase-albert-small-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-17 20:16:30,051 - INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/GPTCache/paraphrase-albert-small-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-17 20:16:30,573 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/GPTCache/paraphrase-albert-onnx/resolve/main/model.onnx "HTTP/1.1 302 Found"
+2026-03-17 20:16:31,183 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/GPTCache/paraphrase-albert-small-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-17 20:16:31,303 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/GPTCache/paraphrase-albert-small-v2/5fb246187b5489d59ce0db167e739192759defab/config.json "HTTP/1.1 200 OK"
+2026-03-17 20:16:47,220 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/GPTCache/paraphrase-albert-small-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-17 20:16:47,318 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/GPTCache/paraphrase-albert-small-v2/5fb246187b5489d59ce0db167e739192759defab/config.json "HTTP/1.1 200 OK"
+2026-03-17 20:16:47,539 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/GPTCache/paraphrase-albert-small-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-17 20:16:47,540 - WARNING - huggingface_hub.utils._http - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-03-17 20:16:47,634 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/GPTCache/paraphrase-albert-small-v2/5fb246187b5489d59ce0db167e739192759defab/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-17 20:16:47,853 - INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/GPTCache/paraphrase-albert-small-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-17 20:16:48,080 - INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/GPTCache/paraphrase-albert-small-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-17 20:16:48,575 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/GPTCache/paraphrase-albert-onnx/resolve/main/model.onnx "HTTP/1.1 302 Found"
+2026-03-17 20:16:49,133 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/GPTCache/paraphrase-albert-small-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-17 20:16:49,229 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/GPTCache/paraphrase-albert-small-v2/5fb246187b5489d59ce0db167e739192759defab/config.json "HTTP/1.1 200 OK"
+2026-03-17 20:18:43,668 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/GPTCache/paraphrase-albert-small-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-17 20:18:43,784 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/GPTCache/paraphrase-albert-small-v2/5fb246187b5489d59ce0db167e739192759defab/config.json "HTTP/1.1 200 OK"
+2026-03-17 20:18:44,029 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/GPTCache/paraphrase-albert-small-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-17 20:18:44,146 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/GPTCache/paraphrase-albert-small-v2/5fb246187b5489d59ce0db167e739192759defab/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-17 20:18:44,389 - INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/GPTCache/paraphrase-albert-small-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-17 20:18:44,632 - INFO - httpx - HTTP Request: GET https://huggingface.co/api/models/GPTCache/paraphrase-albert-small-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-17 20:18:45,185 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/GPTCache/paraphrase-albert-onnx/resolve/main/model.onnx "HTTP/1.1 302 Found"
+2026-03-17 20:18:45,836 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/GPTCache/paraphrase-albert-small-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-17 20:18:45,954 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/GPTCache/paraphrase-albert-small-v2/5fb246187b5489d59ce0db167e739192759defab/config.json "HTTP/1.1 200 OK"
+2026-03-18 13:56:32,909 - INFO - vector_db_client - Successfuly connected to Milvus!
+2026-03-18 13:56:33,869 - INFO - vector_db_client - Successfuly created collection 'metadata' in Milvus!
+2026-03-18 13:57:05,367 - INFO - vector_db_client - Successfuly connected to Milvus!
+2026-03-18 13:57:06,413 - INFO - vector_db_client - Successfuly created collection 'metadata' in Milvus!
+2026-03-18 14:04:11,820 - INFO - vector_db_client - Successfuly connected to Milvus!
+2026-03-18 14:04:12,941 - INFO - vector_db_client - Successfuly created collection 'metadata' in Milvus!
+2026-03-18 14:05:33,756 - INFO - vector_db_client - Successfuly connected to Milvus!
+2026-03-18 14:05:34,706 - INFO - vector_db_client - Successfuly created collection 'metadata' in Milvus!
+2026-03-18 14:06:08,140 - INFO - vector_db_client - Successfuly connected to Milvus!
+2026-03-18 14:06:09,070 - INFO - vector_db_client - Successfuly created collection 'metadata' in Milvus!
+2026-03-18 14:06:41,963 - INFO - vector_db_client - Successfuly connected to Milvus!
+2026-03-18 14:06:43,138 - INFO - vector_db_client - Successfuly created collection 'metadata' in Milvus!
+2026-03-18 14:07:04,029 - INFO - vector_db_client - Successfuly connected to Milvus!
+2026-03-18 14:07:05,048 - INFO - vector_db_client - Successfuly created collection 'metadata' in Milvus!
+2026-03-18 14:07:32,559 - INFO - vector_db_client - Successfuly connected to Milvus!
+2026-03-18 14:07:33,614 - INFO - vector_db_client - Successfuly created collection 'metadata' in Milvus!
+2026-03-18 14:08:12,555 - INFO - vector_db_client - Successfuly connected to Milvus!
+2026-03-18 14:08:13,588 - INFO - vector_db_client - Successfuly created collection 'metadata' in Milvus!
+2026-03-18 14:10:10,912 - INFO - vector_db_client - Successfuly connected to Milvus!
+2026-03-18 14:10:11,926 - INFO - vector_db_client - Successfuly created collection 'metadata' in Milvus!
+2026-03-18 14:10:45,996 - INFO - vector_db_client - Successfuly connected to Milvus!
+2026-03-18 14:10:47,079 - INFO - vector_db_client - Successfuly created collection 'metadata' in Milvus!
+2026-03-18 14:11:07,984 - INFO - vector_db_client - Successfuly connected to Milvus!
+2026-03-18 14:11:08,993 - INFO - vector_db_client - Successfuly created collection 'metadata' in Milvus!
+2026-03-18 14:11:25,369 - INFO - vector_db_client - Successfuly connected to Milvus!
+2026-03-18 14:11:26,490 - INFO - vector_db_client - Successfuly created collection 'metadata' in Milvus!
+2026-03-18 14:11:52,232 - INFO - vector_db_client - Successfuly connected to Milvus!
+2026-03-18 14:11:53,180 - INFO - vector_db_client - Successfuly created collection 'metadata' in Milvus!
+2026-03-18 14:14:14,138 - INFO - vector_db_client - Successfuly connected to Milvus!
+2026-03-18 14:14:15,224 - INFO - vector_db_client - Successfuly created collection 'metadata' in Milvus!
+2026-03-18 14:14:45,062 - INFO - vector_db_client - Successfuly connected to Milvus!
+2026-03-18 14:14:46,149 - INFO - vector_db_client - Successfuly created collection 'metadata' in Milvus!
+2026-03-18 14:15:35,410 - INFO - vector_db_client - Successfuly connected to Milvus!
+2026-03-18 14:15:36,390 - INFO - vector_db_client - Successfuly created collection 'metadata' in Milvus!
+2026-03-18 14:15:36,682 - INFO - vector_db_client - Successfully inserted data in Milvus: {'insert_count': 44, 'ids': [464994532960506451, 464994532960506452, 464994532960506453, 464994532960506454, 464994532960506455, 464994532960506456, 464994532960506457, 464994532960506458, 464994532960506459, 464994532960506460, 464994532960506461, 464994532960506462, 464994532960506463, 464994532960506464, 464994532960506465, 464994532960506466, 464994532960506467, 464994532960506468, 464994532960506469, 464994532960506470, 464994532960506471, 464994532960506472, 464994532960506473, 464994532960506474, 464994532960506475, 464994532960506476, 464994532960506477, 464994532960506478, 464994532960506479, 464994532960506480, 464994532960506481, 464994532960506482, 464994532960506483, 464994532960506484, 464994532960506485, 464994532960506486, 464994532960506487, 464994532960506488, 464994532960506489, 464994532960506490, 464994532960506491, 464994532960506492, 464994532960506493, 464994532960506494]}
+2026-03-18 14:20:23,226 - INFO - vector_db_client - Successfuly connected to Milvus!
+2026-03-18 14:21:11,235 - INFO - vector_db_client - Successfuly connected to Milvus!
+2026-03-18 14:22:08,023 - INFO - vector_db_client - Successfuly connected to Milvus!
+2026-03-18 14:22:46,908 - INFO - vector_db_client - Successfuly connected to Milvus!
+2026-03-18 14:22:48,083 - INFO - vector_db_client - Successfuly created collection 'metadata' in Milvus!
+2026-03-18 14:22:48,369 - INFO - vector_db_client - Successfully inserted data in Milvus: {'insert_count': 39, 'ids': [464994532960506495, 464994532960506496, 464994532960506497, 464994532960506498, 464994532960506499, 464994532960506500, 464994532960506501, 464994532960506502, 464994532960506503, 464994532960506504, 464994532960506505, 464994532960506506, 464994532960506507, 464994532960506508, 464994532960506509, 464994532960506510, 464994532960506511, 464994532960506512, 464994532960506513, 464994532960506514, 464994532960506515, 464994532960506516, 464994532960506517, 464994532960506518, 464994532960506519, 464994532960506520, 464994532960506521, 464994532960506522, 464994532960506523, 464994532960506524, 464994532960506525, 464994532960506526, 464994532960506527, 464994532960506528, 464994532960506529, 464994532960506530, 464994532960506531, 464994532960506532, 464994532960506533]}
+2026-03-18 14:22:56,736 - INFO - vector_db_client - Successfuly connected to Milvus!
+2026-03-18 14:25:09,047 - INFO - vector_db_client - Successfuly connected to Milvus!
+2026-03-18 14:25:59,854 - INFO - vector_db_client - Successfuly connected to Milvus!
+2026-03-18 14:26:37,846 - INFO - vector_db_client - Successfuly connected to Milvus!
+2026-03-18 14:26:39,232 - INFO - vector_db_client - Successfuly created collection 'metadata' in Milvus!
+2026-03-18 14:26:39,522 - INFO - vector_db_client - Successfully inserted data in Milvus: {'insert_count': 39, 'ids': [464994532960506534, 464994532960506535, 464994532960506536, 464994532960506537, 464994532960506538, 464994532960506539, 464994532960506540, 464994532960506541, 464994532960506542, 464994532960506543, 464994532960506544, 464994532960506545, 464994532960506546, 464994532960506547, 464994532960506548, 464994532960506549, 464994532960506550, 464994532960506551, 464994532960506552, 464994532960506553, 464994532960506554, 464994532960506555, 464994532960506556, 464994532960506557, 464994532960506558, 464994532960506559, 464994532960506560, 464994532960506561, 464994532960506562, 464994532960506563, 464994532960506564, 464994532960506565, 464994532960506566, 464994532960506567, 464994532960506568, 464994532960506569, 464994532960506570, 464994532960506571, 464994532960506572]}

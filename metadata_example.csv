@@ -1,0 +1,40 @@
+schema,table,column,data_type,value,frequency,description
+sales,,,,,,"Схема для данных отдела продаж"
+sales,customers,,,,,"Таблица клиентов компании"
+sales,customers,customer_id,int,,,"Уникальный идентификатор клиента"
+sales,customers,full_name,varchar,,,"Полное имя клиента"
+sales,customers,email,varchar,,,
+sales,customers,region,varchar,"Москва",45,"Регион проживания клиента"
+sales,customers,region,varchar,"СПб",30,
+sales,customers,region,varchar,"Регионы",25,
+sales,orders,,,,,"Таблица заказов"
+sales,orders,order_id,int,,,"Номер заказа"
+sales,orders,customer_id,int,,,"ID клиента (внешний ключ)"
+sales,orders,order_date,date,,,"Дата оформления заказа"
+sales,orders,total_amount,decimal,,,"Сумма заказа"
+inventory,,,,,,"Складская схема"
+inventory,products,,,,,"Справочник товаров"
+inventory,products,product_id,int,,,"Код товара"
+inventory,products,product_name,varchar,,,"Наименование товара"
+inventory,products,category,varchar,"Электроника",40,"Категория товара"
+inventory,products,category,varchar,"Бытовая техника",35,
+inventory,products,category,varchar,"Аксессуары",25,
+inventory,products,price,decimal,,,"Цена товара"
+inventory,stock,,,,,"Таблица остатков"
+inventory,stock,stock_id,int,,,"ID записи об остатке"
+inventory,stock,product_id,int,,,"Код товара"
+inventory,stock,quantity,int,,,
+inventory,stock,warehouse,varchar,"Москва",60,"Склад хранения"
+inventory,stock,warehouse,varchar,"СПб",30,
+inventory,stock,warehouse,varchar,"Казань",10,
+hr,,,,,,"Кадровая схема"
+hr,employees,,,,,"Сотрудники компании"
+hr,employees,employee_id,int,,,"Табельный номер"
+hr,employees,full_name,varchar,,,"ФИО сотрудника"
+hr,employees,department,varchar,"Продажи",35,"Отдел"
+hr,employees,department,varchar,"Разработка",40,
+hr,employees,department,varchar,"Администрация",25,
+hr,employees,position,varchar,"Менеджер",30,"Должность"
+hr,employees,position,varchar,"Разработчик",35,
+hr,employees,position,varchar,"Руководитель",20,
+hr,employees,position,varchar,"Аналитик",15,

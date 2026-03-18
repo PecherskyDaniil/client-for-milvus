@@ -1,0 +1,241 @@
+{
+    "schemas": [
+        {
+            "name": "sales",
+            "description": "Схема для данных отдела продаж",
+            "tables": [
+                {
+                    "name": "customers",
+                    "description": "Таблица клиентов компании",
+                    "columns": [
+                        {
+                            "name": "customer_id",
+                            "data_type": "int",
+                            "description": "Уникальный идентификатор клиента",
+                            "values": []
+                        },
+                        {
+                            "name": "full_name",
+                            "data_type": "varchar",
+                            "description": "Полное имя клиента",
+                            "values": []
+                        },
+                        {
+                            "name": "email",
+                            "data_type": "varchar",
+                            "description": "",
+                            "values": []
+                        },
+                        {
+                            "name": "region",
+                            "data_type": "varchar",
+                            "description": "Регион проживания клиента",
+                            "values": [
+                                {
+                                    "value": "Москва",
+                                    "frequency": 45
+                                },
+                                {
+                                    "value": "СПб",
+                                    "frequency": 30
+                                },
+                                {
+                                    "value": "Регионы",
+                                    "frequency": 25
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "orders",
+                    "description": "Таблица заказов",
+                    "columns": [
+                        {
+                            "name": "order_id",
+                            "data_type": "int",
+                            "description": "Номер заказа",
+                            "values": []
+                        },
+                        {
+                            "name": "customer_id",
+                            "data_type": "int",
+                            "description": "ID клиента (внешний ключ)",
+                            "values": []
+                        },
+                        {
+                            "name": "order_date",
+                            "data_type": "date",
+                            "description": "Дата оформления заказа",
+                            "values": []
+                        },
+                        {
+                            "name": "total_amount",
+                            "data_type": "decimal",
+                            "description": "Сумма заказа",
+                            "values": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "inventory",
+            "description": "Складская схема",
+            "tables": [
+                {
+                    "name": "products",
+                    "description": "Справочник товаров",
+                    "columns": [
+                        {
+                            "name": "product_id",
+                            "data_type": "int",
+                            "description": "Код товара",
+                            "values": []
+                        },
+                        {
+                            "name": "product_name",
+                            "data_type": "varchar",
+                            "description": "Наименование товара",
+                            "values": []
+                        },
+                        {
+                            "name": "category",
+                            "data_type": "varchar",
+                            "description": "Категория товара",
+                            "values": [
+                                {
+                                    "value": "Электроника",
+                                    "frequency": 40
+                                },
+                                {
+                                    "value": "Бытовая техника",
+                                    "frequency": 35
+                                },
+                                {
+                                    "value": "Аксессуары",
+                                    "frequency": 25
+                                }
+                            ]
+                        },
+                        {
+                            "name": "price",
+                            "data_type": "decimal",
+                            "description": "Цена товара",
+                            "values": []
+                        }
+                    ]
+                },
+                {
+                    "name": "stock",
+                    "description": "Таблица остатков",
+                    "columns": [
+                        {
+                            "name": "stock_id",
+                            "data_type": "int",
+                            "description": "ID записи об остатке",
+                            "values": []
+                        },
+                        {
+                            "name": "product_id",
+                            "data_type": "int",
+                            "description": "Код товара",
+                            "values": []
+                        },
+                        {
+                            "name": "quantity",
+                            "data_type": "int",
+                            "description": "",
+                            "values": []
+                        },
+                        {
+                            "name": "warehouse",
+                            "data_type": "varchar",
+                            "description": "Склад хранения",
+                            "values": [
+                                {
+                                    "value": "Москва",
+                                    "frequency": 60
+                                },
+                                {
+                                    "value": "СПб",
+                                    "frequency": 30
+                                },
+                                {
+                                    "value": "Казань",
+                                    "frequency": 10
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "hr",
+            "description": "Кадровая схема",
+            "tables": [
+                {
+                    "name": "employees",
+                    "description": "Сотрудники компании",
+                    "columns": [
+                        {
+                            "name": "employee_id",
+                            "data_type": "int",
+                            "description": "Табельный номер",
+                            "values": []
+                        },
+                        {
+                            "name": "full_name",
+                            "data_type": "varchar",
+                            "description": "ФИО сотрудника",
+                            "values": []
+                        },
+                        {
+                            "name": "department",
+                            "data_type": "varchar",
+                            "description": "Отдел",
+                            "values": [
+                                {
+                                    "value": "Продажи",
+                                    "frequency": 35
+                                },
+                                {
+                                    "value": "Разработка",
+                                    "frequency": 40
+                                },
+                                {
+                                    "value": "Администрация",
+                                    "frequency": 25
+                                }
+                            ]
+                        },
+                        {
+                            "name": "position",
+                            "data_type": "varchar",
+                            "description": "Должность",
+                            "values": [
+                                {
+                                    "value": "Менеджер",
+                                    "frequency": 30
+                                },
+                                {
+                                    "value": "Разработчик",
+                                    "frequency": 35
+                                },
+                                {
+                                    "value": "Руководитель",
+                                    "frequency": 20
+                                },
+                                {
+                                    "value": "Аналитик",
+                                    "frequency": 15
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
